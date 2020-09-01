@@ -3,8 +3,8 @@ package dbr
 import (
 	"testing"
 
-	"github.com/gocraft/dbr/v2/dialect"
 	"github.com/stretchr/testify/require"
+	"github.com/valkuere/dbr/v2/dialect"
 )
 
 func TestCondition(t *testing.T) {

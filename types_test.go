@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gocraft/dbr/v2/dialect"
 	"github.com/stretchr/testify/require"
+	"github.com/valkuere/dbr/v2/dialect"
 )
 
 var (

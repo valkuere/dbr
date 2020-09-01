@@ -1,4 +1,4 @@
-module github.com/valkuere/dbr
+module github.com/valkuere/dbr/v2
 
 go 1.13
 

@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/gocraft/dbr/v2/dialect"
 	"github.com/stretchr/testify/require"
+	"github.com/valkuere/dbr/v2/dialect"
 )
 
 func TestSQLMock(t *testing.T) {
