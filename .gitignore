@@ -1,0 +1,8 @@
+cmd/invoice
+go.sum
+scripts/fresh-test-db.sql
+/.netrc
+/.vscode
+/cmd/cmd
+/scripts/test.log
+.idea

@@ -34,10 +34,8 @@ func (u *union) Build(d Dialect, buf Buffer) error {
 				buf.WriteString("ALL ")
 			}
 		}
-		err := b.Build(d, buf)
-		if err != nil {
-			return err
-		}
+		buf.WriteString(placeholder)
+		buf.WriteValue(b)
 	}
 	return nil
 }
